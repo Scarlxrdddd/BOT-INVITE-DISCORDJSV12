@@ -1,0 +1,27 @@
+{
+  "name": "bot-invite",
+  "version": "2.0.3",
+  "description": "bot-invite for your server dicsord",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.5.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "figlet": "^1.4.0",
+    "lodash": "^4.17.21",
+    "ms": "^2.1.2",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.0.0"
+  },
+  "keywords": [],
+  "author": "Scarlxrd_d",
+  "license": "MIT"
+}
