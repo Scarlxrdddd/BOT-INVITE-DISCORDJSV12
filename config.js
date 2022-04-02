@@ -1,6 +1,6 @@
 module.exports = {
     prefix: ".", // prefix du bot
-    welcomeChannel: "828277212079063072", // Channel de bienvenue souhaité
+    welcomeChannel: "", // Channel de bienvenue souhaité
     slashCommands: true, // slashcommands true ou false, comme vous voulez
     colors: {
         main: [0, 110, 255],
@@ -17,11 +17,11 @@ module.exports = {
     rewards: [
         {
             invitesNeeded: 10, // Invite voulu pour la première rewards
-            roleID: "828399724494848051" // Le role qu'ils auront après avoir fait 10 invites
+            roleID: "" // Le role qu'ils auront après avoir fait 10 invites
         }, //Copier collé pour ajouter des invitesrewards
         {
             invitesNeeded: 25,
-            roleID: "828277146148798467"
+            roleID: ""
         }
     ],
     welcomeMessage: "{member} a rejoint le serveur. Il a été invité par **{inviter}** qui à maintenant {invites} invites.", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
