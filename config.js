@@ -26,5 +26,5 @@ module.exports = {
     ],
     welcomeMessage: "{member} a rejoint le serveur. Il a été invité par **{inviter}** qui à maintenant {invites} invites.", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
     leaveMessage: "{member} a quitté le serveur. Il avait été invité par **${inviter}** qui à maintenant {invites} invites.", // Use {inviter} for who invited the member, {member} for the member, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
-    token: "NzU1NDg3NDE4NjAxMzA4MjQ1.X2EAfA.6zE84MU2OvKsYwuOfGc--w6rmnw"
+    token: ""
 }
